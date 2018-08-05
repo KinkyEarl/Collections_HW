@@ -1,3 +1,4 @@
+
 public abstract class Animal {
     private String name;
     private String colour;
@@ -27,4 +28,3 @@ public abstract class Animal {
         this.owner = owner;
     }
 }
-
