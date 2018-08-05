@@ -69,9 +69,14 @@ public class Main {
                 .collect(Collectors.toList());
         System.out.print("\nВот рыжие животные: " + red_animals);
 
-       
+        //выбираем собаку
+        for(Animal chosen : red_animals) {
+            if(chosen.getClass().equals(Dog.class)) {
+                System.out.print("\nВы можете забрать:" + chosen);
+            }
+        }
 
 
+
+    }
 }
-}
-

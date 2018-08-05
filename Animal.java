@@ -27,4 +27,3 @@ public abstract class Animal {
         this.owner = owner;
     }
 }
-
